@@ -40,6 +40,13 @@ namespace Snake
                 y = y - offset;
             }
         }
+
+        internal void Clear()
+        {
+            sym = ' ';
+            Draw();
+        }
+
         public void Draw()
         {
 
